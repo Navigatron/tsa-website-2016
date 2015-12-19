@@ -1,0 +1,1099 @@
+/****************************************************
+#####################################################
+##-------------------------------------------------##
+##           COVERLINE                             ##
+##-------------------------------------------------##
+## Copyright = globbersthemes.com- 2013            ##
+## Date      = FERVRIER 2013                       ##                     
+## Author    = globbers                            ##
+## Websites  = http://www.globbersthemes.com       ##
+##                                                 ##
+#####################################################
+****************************************************/
+
+html {
+height: 100%;
+
+}
+
+body{
+margin:0;
+padding:0;
+text-align:center;
+background:transparent;
+font-size:13px;
+color:#7c7c76;
+font-family:Oswald, Arial, Helvetica, sans-serif;
+font-weight:normal;
+
+
+}
+
+#background {
+position:fixed; 
+top:0; 
+left:0; 
+z-index:-1; 
+ 
+} 
+
+/*texte*/
+
+p {
+font-size: 100%;
+
+}
+
+h1 {
+font-size: 200%;
+
+}
+
+h2 {
+font-size: 150%;
+
+}
+
+h3 {
+font-size: 125%;
+
+}
+
+h4, h5, h6 {
+font-size: 100%;
+
+}
+
+/* liens hypertextes*/
+ a:link, a:visited {
+text-decoration:none;
+font-weight:bold;
+color:#7c7c76;
+
+}
+
+a:hover {
+color:#000;
+
+}
+
+ ul {
+margin:0;
+padding-left:20px;
+
+}
+
+li {
+list-style-type:disc;
+background:transparent;
+margin: 4px;
+
+}
+
+
+img {
+border:none;
+margin: 5px 0px 10px 0px;
+padding:0;
+
+}
+
+img .caption {
+text-align: left;
+
+}
+
+.highlight{
+padding: 0px 2px 0px 2px;
+color:#f1f1f1;
+background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+
+}
+
+.button {
+border:none;
+color:#fff;
+font-weight:bold;
+padding:4px;
+background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+
+} 
+
+.inputbox {
+color:#fff;
+border:none;
+padding:4px;
+font-weight:normal;
+background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+
+} 
+
+.pagewidth{
+width:990px;
+text-align:center;
+background:transparent;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+
+}
+
+label {
+text-align:left;
+color:#758997;
+
+}
+
+fieldset {
+margin:0px 5px 5px 5px;
+padding:10px;
+border:none;
+
+}
+
+
+.clr {
+clear:both;
+
+}
+
+/***************************/
+
+#header {
+float:left;
+width:100%;
+height:266px;
+background: url(../images/header.png) 0 0 repeat-x; 
+background-attachment:scroll; 
+
+}
+
+#top-h {
+float:left;
+width:100%;
+height:200px;
+background:transparent;
+
+}
+
+#top-t {
+float:left;
+width:100%;
+height:80px;
+background:transparent;
+margin-top:40px;
+
+}
+
+#sitename {
+text-align:center;
+font-size:70px;
+font-family:oswald;
+color:#fff;
+text-transform:uppercase;
+letter-spacing:1px;
+
+}
+
+#top-c {
+float:left;
+width:100%;
+height:40px;
+background:transparent;
+margin-top:10px;
+
+}
+
+#sloganweb {
+text-align:center;
+font-size:20px;
+font-family:oswald;
+color:#fff;
+text-transform:uppercase;
+letter-spacing:1px;
+margin-top:5px;
+}
+
+/***********************/
+ #topmenu {
+ float:left;
+ width:100%;
+ height:55px;
+ background:transparent;
+ margin-top:40px;
+
+ }
+ 
+ /****************************/
+ .navigation {
+ float:left;
+ width:980px;
+ height:55px;
+ background:transparent; 
+ margin-top:5px;
+font-family:Copse, Arial, Helvetica, sans-serif;
+
+ }
+ 
+ .navigation ul {
+ list-style: none;
+ margin:0;
+ padding:0;
+ float: left;
+ 
+ }
+ 
+ .navigation ul ul {
+ margin: 0;
+ padding: 0; 
+ 
+ }
+ 
+ .navigation ul li {
+ margin:0;
+ padding: 0;
+ float: left;
+ list-style: none;
+ background: none;
+ display: block;	
+ 
+ }
+ 
+ .navigation ul li ul {
+ width: 200px;
+ position: absolute; 
+ z-index: 99;
+ left: -999em;
+ height: auto;w\idth: 200px;
+ 
+ }
+ 
+ .navigation ul li ul ul {
+ margin: 0;
+ 
+ } 
+ 
+ .navigation ul li li {
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ 
+ }
+ 
+ .navigation ul ul a {
+ width: 100%;
+ 
+ }
+ .navigation ul li:hover ul ul,
+ .navigation ul li:hover ul ul ul,
+ .navigation ul li.sfhover ul ul,
+ .navigation ul li.havechildsfhover ul ul,
+ .navigation ul li.havechild-activesfhover ul ul,
+ .navigation ul li.activesfhover ul ul,
+ .navigation ul li.sfhover ul ul ul,
+ .navigation ul li.havechildsfhover ul ul ul,
+ .navigation ul li.havechild-activesfhover ul ul ul,
+ .navigation ul li.activesfhover ul ul ul { 
+ left: -999em;
+ 
+ }
+ 
+ .navigation ul li:hover ul,
+ .navigation ul li li:hover ul,
+ .navigation ul li li li:hover ul,
+ .navigation ul li.sfhover ul,
+ .navigation ul li.havechildsfhover ul,
+ .navigation ul li.havechild-activesfhover ul,
+ .navigation ul li.activesfhover ul,
+ .navigation ul li li.sfhover ul,
+ .navigation ul li li.havesubchildsfhover ul,
+ .navigation ul li li.havesubchild-activesfhover ul,
+ .navigation ul li li.activesfhover ul,
+ .navigation ul li li li.sfhover ul,
+ .navigation ul li li li.havesubchildsfhover ul,
+ .navigation ul li li li.havesubchild-activesfhover ul,
+ .navigation ul li li li.activesfhover ul {
+ left: auto;	
+ 
+ }
+ 
+ .navigation ul li a {
+ padding: 5px 12px 0 12px ;
+ margin:0px 0 0 5px;
+ display: block;
+ font-weight: normal;	
+ font-size:15px;
+ text-transform:capitalise;
+ height:25px;
+ background:transparent;
+ color:#fff;
+ letter-spacing:1px;
+
+ }
+ 
+ .navigation ul li a:hover {
+ border:1px solid #000; 
+ color: #FFFFFF;
+  margin:0px 0 0 3px;
+  background-color: #454545; background-image: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#010101));
+ background-image: -webkit-linear-gradient(top, #454545, #010101);
+ background-image: -moz-linear-gradient(top, #454545, #010101);
+ background-image: -ms-linear-gradient(top, #454545, #010101);
+ background-image: -o-linear-gradient(top, #454545, #010101);
+ background-image: linear-gradient(to bottom, #454545, #010101);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#454545, endColorstr=#010101);
+  
+ }
+ 
+ .navigation ul li {
+ background:transparent ;
+height:45px;
+ }
+ 
+ .navigation ul li.active a {
+ border:1px solid #000; 
+ color: #FFFFFF;
+  margin:0px 0 0 3px;
+  background-color: #454545; background-image: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#010101));
+ background-image: -webkit-linear-gradient(top, #454545, #010101);
+ background-image: -moz-linear-gradient(top, #454545, #010101);
+ background-image: -ms-linear-gradient(top, #454545, #010101);
+ background-image: -o-linear-gradient(top, #454545, #010101);
+ background-image: linear-gradient(to bottom, #454545, #010101);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#454545, endColorstr=#010101);
+  
+ } 
+ 
+ .navigation ul li ul {
+ margin-top: 10px;
+ text-align:left !important;
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ color: #FFFFFF;
+ background-color: #454545; background-image: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#010101));
+ background-image: -webkit-linear-gradient(top, #454545, #010101);
+ background-image: -moz-linear-gradient(top, #454545, #010101);
+ background-image: -ms-linear-gradient(top, #454545, #010101);
+ background-image: -o-linear-gradient(top, #454545, #010101);
+ background-image: linear-gradient(to bottom, #454545, #010101);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#454545, endColorstr=#010101);
+
+ }
+ 
+ .navigation ul li ul li {
+ padding-top:12px ;
+ background:none;
+ border-top:1px solid #2c323f; 
+ 
+ }
+ 
+ .navigation ul li ul li a{
+ height:31px !important;
+ padding-left:31px;
+ color:#fff !important;
+ 
+ }
+ 
+ .navigation ul li ul li a:hover  {
+ height:31px ;
+ background:transparent ; 
+ color:#666666 !important;
+border:none; 
+ 
+ }
+ 
+ .navigation ul li ul li ul {
+ margin-left:200px;
+ margin-top: -30px;
+ padding-bottom: 3px;
+ padding-top: 0px;
+ text-align:left !important;
+ padding-bottom: 0px;
+ 
+ }
+ 
+ .navigation ul li ul li.active a {
+ color:#fff !important; 
+ background:transparent !important;
+ border:none !important;
+ 
+ }
+ 
+ .navigation ul li.active ul li a {
+ color:#fff !important;
+  background:transparent !important;
+   border:none !important;
+ }
+ 
+ .navigation ul li.active ul li a:hover {
+ color:#838d92 !important;
+ 
+ }
+ 
+ /**************************/
+#wrapper-slide{ 
+ float:left; 
+ width:980px; 
+ height:480px !important;
+ background:#FFF;
+ position:relative;
+ margin-top:60px;
+
+ } 
+
+ #slide{ 
+ float:left; 
+ width:951px; 
+ height:440px;  
+
+ }  
+ 
+ /* The Nivo Slider styles */ 
+ .nivoSlider { 
+ float:left;	 
+ position:relative; 
+ width: 951px;	
+ height: 460px ;	
+ margin-top: 20px;
+ margin-left:20px;  
+ background: url(../images/loading.gif) no-repeat 50% 50%; 
+ 
+ }  
+ 
+ .nivoSlider img {		 
+ display:none;    
+ width:951px; 
+ /* Make sure your images are the same size */     
+ height:430px; 
+ /* Make sure your images are the same size */
+
+ }  
+ 
+ .nivoSlider a {    
+ border:0;     
+ display:block;	 
+ color: #fff;   
+ 
+ }  
+ 
+ /* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left: 0px;
+	/* right:0px; */
+	bottom:0px;
+	background:transparent;
+	color:#000;
+	text-shadow: 0 1px #000;
+	z-index:8;
+	width: 910px;
+	padding: 20px; 
+	overflow: hidden;
+	
+}
+.nivo-caption p {
+	padding:0 !important;
+	margin:0 !important;
+	font-size:23px;
+	text-transform:capitalise;
+	 font-family: copse,tahoma, arial, sans-serif;  
+	
+}
+.nivo-caption a {
+	display:inline !important;
+	
+}
+.nivo-caption a:hover {
+	border-bottom-style: solid;
+	text-decoration: none;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+	text-indent: -10000px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/arrows.png);
+	background-repeat: no-repeat;
+}
+.nivo-prevNav {
+	left:15px;
+	background-position: left top;
+}
+.nivo-nextNav {
+	right:15px;
+	background-position: -35px top;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+display:none;
+	
+}
+.nivo-controlNav a {
+   
+}
+
+/***********************/
+#content {
+float:left;
+margin:40px 0px 30px 0px;
+width:980px;
+background:#fff;
+text-align:left;
+
+}
+
+#main {
+float:left;
+margin:30px 0px 20px 0px;
+width:680px;
+background:transparent;
+text-align:left;
+
+}
+
+#main-full {
+float:left;
+margin:30px 0px 20px 0px;
+width:930px;
+background:transparent;
+text-align:left;
+
+}
+
+tem-page { 
+position:relative; 
+
+}
+
+.item-page aside {
+  float:left;
+  position:absolute;
+  width:95px;
+  border-right:1px dashed #e0e0e0;
+  
+}
+
+item-image {
+  margin:10px 0px 10px 0;
+  width:100%;
+  padding:0 !important;
+
+}
+
+.item-image {
+    
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;	
+	transition: all 0.3s ease;
+
+}
+
+.item-image:HOVER {
+z-index: 10;
+	 -webkit-transform:scale(1.2);
+	    -moz-transform:scale(1.2);
+	    -ms-transform:scale(1.2);
+	    -o-transform:scale(1.2);
+    transform:scale(1.2); 
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;	
+	transition: all 0.3s ease;
+
+}
+
+.gk-article {
+  font-size:14px;
+  line-height:22px !important;
+  margin:0 0 60px 96px;
+   padding:0px 15px 45px 15px;
+   background:transparent;
+ min-height:300px;
+ background:#fff;
+position:relative;
+
+}
+
+.item-page .item-page {
+ min-height:400px; 
+ 
+ }
+ 
+.item-page time {
+  display:block;
+  width:85px;
+  height:60px;
+  line-height:20px;
+  margin:0 0 15px 0px;
+  padding:6px 6px 6px 0px;
+  text-align:center;
+  font-size:26px;
+ color:#fff; 
+ border:1px solid #000; 
+ text-transform:uppercase;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ color: #FFFFFF;
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+ background-image: -webkit-linear-gradient(top, #333333, #000000);
+ background-image: -moz-linear-gradient(top, #333333, #000000);
+ background-image: -ms-linear-gradient(top, #333333, #000000);
+ background-image: -o-linear-gradient(top, #333333, #000000);
+ background-image: linear-gradient(to bottom, #333333, #000000);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#333333, endColorstr=#000000);
+  margin:0px 0 0 3px;
+  font-family: copse,'open sans',tahoma, arial, sans-serif;  
+   
+}
+
+.item-page time span {
+  display:block;
+  font-size:32px;
+  line-height:45px;
+   
+}
+
+.article-info {
+  margin-bottom:0;
+  text-align:left;
+  font-size:11px;
+  margin-left:5px;
+  margin-top:20px;
+ 
+  
+}
+
+.article-info dd { 
+margin:0 0 10px ; 
+font-weight:normal;
+
+}
+
+.gk-item-page .gk-article { min-height:400px; }
+.gk-article .article-header {
+  clear:both;
+  font-size:38px;
+  line-height:72px;
+  margin:0px 0 5px 0;
+  font-family: copse,'open sans',tahoma, arial, sans-serif;  
+  text-transform:capitalize;
+  
+  
+}
+
+/*********************/
+/* Pagination ---*/
+ .counter {
+ text-align:center;
+
+ }
+ 
+ .pagination   {
+ margin:20px 0 0 0;
+ overflow: hidden;
+ text-align:center;
+ background:transparent;
+  
+ }
+ 
+ .pagination li   {
+display:inline;
+ margin: 0;
+ padding: 8px;
+ margin:0px;
+ overflow: hidden;
+text-align:center;
+  
+ 
+ }
+ 
+ .pagination li span {
+ padding: 6px; 
+ line-height: 15px; 
+
+ }
+ 
+ .pagination li a {
+ line-height: 20px;
+ padding:7px;
+ text-decoration: none;
+  padding:5px 5px 5px 5px;
+  background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+color:#fff;
+
+ }
+ 
+ .pagination li a:hover, .pagination li a:active, 
+ .pagination li a:focus {
+ text-decoration: none;
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+ background-image: -webkit-linear-gradient(top, #333333, #000000);
+ background-image: -moz-linear-gradient(top, #333333, #000000);
+ background-image: -ms-linear-gradient(top, #333333, #000000);
+ background-image: -o-linear-gradient(top, #333333, #000000);
+ background-image: linear-gradient(to bottom, #333333, #000000);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#333333, endColorstr=#000000);
+ color:#fff;
+ 
+ } 
+ 
+ ul.pager.pagenav {
+float:left;
+background:transparent;
+width:100%;
+margin:15px 0 0 0;
+padding:0;
+
+}
+
+.pager .next  {
+	float: right;
+}
+.pager .previous  {
+	float: left;
+}
+
+.result-title {
+ padding:10px;
+ }
+ 
+ /*********************/
+ 
+#main .readmore a:link,
+#main .readmore a:visited,
+#main a.readmore:link,
+#main a.readmore:visited ,
+#main-full .readmore a:link,
+#main-full .readmore a:visited,
+#main-full a.readmore:link,
+#main-full a.readmore:visited {
+position:absolute;
+margin-bottom:0px;
+right:40%;
+ font-weight:normal;
+ padding:5px;
+ border:1px solid #000; 
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ color: #FFFFFF;
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+  margin:0px 0 0 3px;
+ 
+}
+
+#main .readmore a:hover,
+#main .readmore a:active,
+#main .readmore a:focus,
+#main a.readmore a:hover,
+#main a.readmore a:active,
+#main a.readmore a:focus,
+#main-full .readmore a:hover,
+#main-full .readmore a:active,
+#main-full .readmore a:focus,
+#main-full a.readmore a:hover,
+#main-full a.readmore a:active,
+#main-full a.readmore a:focus
+{
+border:1px solid #000;
+-webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ color: #FFFFFF;
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+ background-image: -webkit-linear-gradient(top, #333333, #000000);
+ background-image: -moz-linear-gradient(top, #333333, #000000);
+ background-image: -ms-linear-gradient(top, #333333, #000000);
+ background-image: -o-linear-gradient(top, #333333, #000000);
+ background-image: linear-gradient(to bottom, #333333, #000000);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#333333, endColorstr=#000000);
+
+}
+
+/* ++++++++++++++  items-more  ++++++++++++++ */
+
+ .items-more {
+ margin-left:90px;
+	
+}
+
+ .items-more h3{
+ margin-left:50px;
+
+ 
+}
+
+.items-more ul{
+ margin-left:0px;
+ 
+}
+
+.items-more li {
+list-style-type:disc !important;
+
+}
+
+.items-more ol li a{
+background : transparent;
+margin-left:10px;
+list-style-type:disc !important;
+
+}
+
+.items-more ol li a:hover,
+.items-more ol li a:active,
+.items-more ol li a:focus{
+
+}
+/******************************/
+.email-icon , .print-icon   {
+ float:left;
+ font-size:11px;
+ margin:0 0 0 5px;
+ padding:0;
+  list-style-type:none; 
+
+} 
+
+.email-icon a , .print-icon a   {
+ font-weight:normal;
+ margin:0;
+ padding:0;
+ list-style-type:none; 
+} 
+
+/* ++++++++++++++  nav entre article  ++++++++++++++ */
+ ul.pagenav {
+ position:relative;
+ margin-bottom:15px;
+
+}
+
+ul.pagenav li {
+ list-style: none;
+ padding: 8px;
+
+}
+
+ul.pagenav li a{
+color:#fff;
+ padding: 8px;
+-webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+ background-image: -webkit-linear-gradient(top, #333333, #000000);
+ background-image: -moz-linear-gradient(top, #333333, #000000);
+ background-image: -ms-linear-gradient(top, #333333, #000000);
+ background-image: -o-linear-gradient(top, #333333, #000000);
+ background-image: linear-gradient(to bottom, #333333, #000000);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#333333, endColorstr=#000000);
+}
+
+ul.pagenav li a:hover, ul.pagenav li a:focus {
+border:1px solid #000; 
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ color: #FFFFFF;
+ background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+ background-image: -webkit-linear-gradient(top, #000, #333);
+ background-image: -moz-linear-gradient(top, #000, #333);
+ background-image: -ms-linear-gradient(top, #000, #333);
+ background-image: -o-linear-gradient(top, #000, #333);
+ background-image: linear-gradient(to bottom, #000, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#333);
+
+}
+
+ul.pagenav li.pagenav-prev {
+float: left;
+
+}
+
+ul.pagenav li.pagenav-next { 
+float:right;
+
+}
+
+/****************************/
+.contact,#searchForm,.search-results,.weblink-category ,.newsfeed-category ,.remind,.registration, .categories-list,.category-list{
+font-size:14px;
+  line-height:26px !important;
+  margin:0 0 20px 0;
+  padding:15px 0px 45px 15px;
+  background:#fff;
+ border:1px solid #e0e0e0;
+ box-shadow: -1px 1px 2px 1px #e2e3e4,
+            -1px 2px 100px rgba(255, 255, 255, 0.4) inset; 
+  
+}
+
+.contact h2 {
+font-size:38px;
+font-family:Oswald; 
+  
+}
+
+/*****************************/
+#right {
+float:left;
+width:225px;
+text-align:left;
+margin-bottom:15px;
+margin-left:40px;
+margin-top:20px;
+background:transparent;
+
+}
+
+#right h3 {
+background: url(../images/right-h3.png) 0 0 no-repeat;
+font-size:18px;
+margin: 0px 0 10px 0;
+text-transform:uppercase;
+padding:13px 0 10px 15px;
+border-bottom:1px dashed #e0e0e0;
+font-family: copse,'open sans',tahoma, arial, sans-serif; 
+
+}
+
+#right ul {
+margin-left:10px;
+
+}
+
+#right .moduletable_menu,
+#right .moduletable {
+ margin-bottom:40px;
+font-size:14px;
+font-weight:normal;
+
+}
+
+#right .moduletable_menu a,
+#right .moduletable a {
+font-weight:normal;
+
+}
+
+#right .moduletable_menu a:hover,
+#right .moduletable a:hover {
+font-weight:normal;
+
+}
+
+/*********************/
+
+#ft {
+float:left;
+width:100%;
+height:65px;
+background:#fff;
+border-top:1px solid #000;
+ font-family: copse,'open sans',tahoma, arial, sans-serif;   
+ margin-top:25px;
+}
+
+.ftbl {
+float:left;
+text-align:center !important;
+font-weight:normal;
+font-size:14px;
+width:770px;
+color:#000; 
+background:transparent;
+ margin-top:25px;
+}
+
+.ftbl a{
+padding:0 !important;
+border:none !important;
+color:#000 !important;
+font-weight:normal;
+
+} 
+
+ .ftbl a:hover{
+padding:0 !important;
+border:none !important;
+color:#000 !important;
+
+} 
+
+#top {
+float:left;
+width:30px;
+height:30px;
+margin-top:10px;
+margin-left:100px;
+padding:0 !important;
+border:none !important;
+background:transparent;
+
+}
+
+.top_button {
+padding:0 !important;
+border:none !important;
+
+}

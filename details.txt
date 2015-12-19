@@ -1,0 +1,2 @@
+Position1 - topmenu Navigation
+Position7 - Right sidebar
